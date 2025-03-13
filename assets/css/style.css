@@ -1,8 +1,60 @@
 /* IMPOSTAZIONI GENERALI */
+body {
+  display: block;
+  margin: 0px;
+  padding: 1rem;
+  background-image: url(../img/sfondo.png);
+  background-repeat: repeat;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.2;
+}
 
 /* HEADER */
+header {
+  display: block;
+  background: rgb(11, 124, 150);
+  background: linear-gradient(180deg, rgb(22, 148, 177) 28%, rgba(0, 136, 168, 1) 76%, rgb(4, 112, 136) 100%);
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header img {
+  width: 72%;
+  margin: 16px;
+}
+header .sottotitolo {
+  font-size: large;
+  color: white;
+  margin: 10px;
+}
+header .divmenu {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+a {
+  color: #00a6c8;
+}
+img {
+  display: inline-block;
+}
 
 /* MAIN */
+main {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: block;
+  background-color: rgb(148, 148, 148);
+  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
 
@@ -11,37 +63,123 @@
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
+i {
+  display: block;
+  margin-left: 0;
+  margin-right: 0.5em;
+  padding-left: 1px;
+}
 
 /* FOOTER */
 
-body {
-  background-image: url(../img/sfondo.png);
-  background-repeat: repeat;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-header {
+div {
   display: block;
-  background: rgb(11, 124, 150);
-  background: linear-gradient(180deg, rgba(11, 124, 150, 1) 28%, rgba(0, 136, 168, 1) 76%, rgba(0, 136, 168, 1) 100%);
-  text-align: center;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-
-  padding: 30px;
 }
-header img {
-  width: 80%;
+form {
+  display: block;
+  margin-top: 0em;
+}
+strong {
+  font-weight: bold;
 }
 
 .sottotitolo {
   font-size: 15px;
 }
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+rt {
+  line-height: normal;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+a:visited {
+  text-decoration: underline;
+  cursor: auto;
+}
+article {
+  display: block;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+li {
+  display: list-item;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
 
 .divmenu a {
   display: block;
-}
-main {
-  background-color: white;
 }
